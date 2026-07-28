@@ -81,9 +81,8 @@ class CandidateEdit(BaseModel):
     final_score: float | None = None
     status: str | None = None
 
-@app.get("/health")
-def health():
-    return {"status": "ok", "message": "myNachiketa backend is running"}
+    @app.get("/health")
+    def health():return {"status": "ok","version": "2.0","message": "Backend updated successfully"}
 
 @app.post("/candidates/upload")
 async def upload_candidates(file: UploadFile = File(...), db: Session = Depends(get_db)):
