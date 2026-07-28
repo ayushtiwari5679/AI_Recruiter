@@ -1,4 +1,4 @@
-# myNachiketa — Sequential Candidate Screening
+# AI Recruiter — Sequential Candidate Screening
 
 Recruiter/admin workflow MVP. Every stage is run separately so results can be reviewed and manually overridden before continuing.
 
