@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+
+# Google OAuth
+backend/token.json
+backend/credentials.json
+
+# Database
+*.db
+*.sqlite3
+
+# Node
+frontend/node_modules/
+
+# Build
+frontend/dist/
+
+# IDE
+.vscode/
