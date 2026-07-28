@@ -1,5 +1,5 @@
 import React,{useEffect,useMemo,useState} from 'react';import{createRoot}from'react-dom/client';import'./style.css';
-const API=import.meta.env.VITE_API_URL||'http://localhost:8000';
+const API=import.meta.env.VITE_API_URL||'https://ai-recruiter-api-ksgk.onrender.com';
 const steps=['Upload candidates','Resume + JD review','GitHub analysis','Recruiter review','Test results','Final review'];
 function App(){
  const[c,setC]=useState([]),[jd,setJd]=useState(''),[step,setStep]=useState(0),[busy,setBusy]=useState(false),[msg,setMsg]=useState(''),[details,setDetails]=useState([]),[interviewStart,setInterviewStart]=useState(''),[duration,setDuration]=useState(30),[gap,setGap]=useState(10);

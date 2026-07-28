@@ -47,3 +47,8 @@ Open the Vite URL, normally `http://localhost:5173`.
 - Candidates already stored in SQLite are skipped instead of causing a 500 error.
 - Admin/recruiter edits remain available through the frontend and PATCH endpoint.
 - Sequential step result payloads are displayed correctly in the frontend.
+
+https://ai-recruiter-api-ksgk.onrender.com/health
+
+https://ai-recruiter-neon.vercel.app/
+
